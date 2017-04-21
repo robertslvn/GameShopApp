@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\Content\site.css" />
+    <Content Include="wwwroot\Images\background3.png" />
+    <Content Include="wwwroot\Images\background4.png" />
+    <Content Include="wwwroot\Images\bfield.jpg" />
+    <Content Include="wwwroot\Images\civ.jpg" />
+    <Content Include="wwwroot\Images\civ6banner.jpg" />
+    <Content Include="wwwroot\Images\D3Banner.jpg" />
+    <Content Include="wwwroot\Images\destiny.jpg" />
+    <Content Include="wwwroot\Images\diablo.jpg" />
+    <Content Include="wwwroot\Images\fhonor.jpg" />
+    <Content Include="wwwroot\Images\GameShopLogo.png" />
+    <Content Include="wwwroot\Images\gta.jpg" />
+    <Content Include="wwwroot\Images\meffect.jpg" />
+    <Content Include="wwwroot\Images\nba.jpg" />
+    <Content Include="wwwroot\Images\nhl.jpg" />
+    <Content Include="wwwroot\Images\nier.jpg" />
+    <Content Include="wwwroot\Images\nierbanner.jpg" />
+    <Content Include="wwwroot\Images\warcraft.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="1.14.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Tools" Version="1.1.0-preview4-final" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.1" />
+    <PackageReference Include="MimeKit" Version="1.14.1" />
+  </ItemGroup>
+
+</Project>

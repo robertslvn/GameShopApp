@@ -1,0 +1,9 @@
+﻿@model GamesListViewModel
+
+    <h1 class="featuredtitle">@Model.CurrentCategory</h1>
+    @foreach (var game in Model.Games)
+    {
+    
+        @Html.Partial("GameOverviewSummary", game)
+
+    }

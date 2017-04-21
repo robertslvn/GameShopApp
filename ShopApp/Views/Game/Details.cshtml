@@ -1,0 +1,17 @@
+﻿@model Game
+
+<div class="thumbnail">
+    <img class ="maingameimage" alt="@Model.Name" src="@Model.ImageUrl">
+    <div class="caption-full">
+        
+        <h3 style="color:  #2294de;">
+           @Model.Name
+        </h3>
+        <h3 class="price">@Model.Price.ToString("c")</h3>
+        <h4>@Model.ShortDescription</h4>
+        <p>@Model.LongDescription</p>
+        <p class="button" style="margin-top: 20px;">
+            <a class="btn btn-primary" asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-gameId="@Model.GameId">Add to cart</a>
+        </p>
+    </div>
+</div>
